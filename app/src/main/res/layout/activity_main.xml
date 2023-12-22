@@ -22,7 +22,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="45dp" />
+        tools:layout_editor_absoluteY="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_01"
@@ -30,7 +32,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="45dp" />
+        tools:layout_editor_absoluteY="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_02"
@@ -38,7 +42,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="45dp" />
+        tools:layout_editor_absoluteY="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_10"
@@ -46,7 +52,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="145dp" />
+        tools:layout_editor_absoluteY="145dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_11"
@@ -54,7 +62,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="145dp" />
+        tools:layout_editor_absoluteY="145dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_12"
@@ -62,7 +72,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="145dp" />
+        tools:layout_editor_absoluteY="145dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_20"
@@ -70,7 +82,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="251dp" />
+        tools:layout_editor_absoluteY="251dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_21"
@@ -78,7 +92,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="251dp" />
+        tools:layout_editor_absoluteY="251dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_22"
@@ -86,7 +102,9 @@
         android:layout_height="90dp"
         android:onClick="onButtonClick"
         tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="251dp" />
+        tools:layout_editor_absoluteY="251dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
