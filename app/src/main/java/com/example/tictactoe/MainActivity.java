@@ -130,23 +130,23 @@ public class MainActivity extends AppCompatActivity
         {
             for(int i=0; i<3; i++)
             {
-                if(board[i][0].equals(board[i][1]) && board[i][1].equals(board[i][2]))
+                if(board[i][0].equals(board[i][1]) && board[i][1].equals(board[i][2]) && !board[i][0].equals(""))
                 {
                     return true;
                 }
             }
             for (int i=0; i<3; i++)
             {
-                if(board[0][i].equals(board[1][i]) && board[1][i].equals(board[2][i]))
+                if(board[0][i].equals(board[1][i]) && board[1][i].equals(board[2][i]) && !board[0][i].equals(""))
                 {
                     return true;
                 }
             }
-            if(board[0][0].equals(board[1][1]) && board[1][1].equals(board[2][2]))
+            if(board[0][0].equals(board[1][1]) && board[1][1].equals(board[2][2]) && !board[0][0].equals(""))
             {
                 return true;
             }
-            if(board[0][2].equals(board[1][1]) && board[1][1].equals(board[2][0]))
+            if(board[0][2].equals(board[1][1]) && board[1][1].equals(board[2][0]) && !board[1][1].equals(""))
             {
                 return true;
             }
